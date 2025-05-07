@@ -68,7 +68,7 @@ void getGuess(char guess[], int guessNum) {
 			printf("Your guess must be 5 letters long.");
 			correctInput = 1;
 		}
-		else if (checkCorrectInput(guess) = 1) {
+		else if (checkCorrectInput(guess) == 1) {
 			printf("Your guess must be 5 letters long. Your guess must contain letters.");
 			correctInput = 1;
 		}
